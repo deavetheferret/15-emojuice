@@ -25,6 +25,8 @@ html {
 
 body {
   background: var(--color-article);
+  max-width: 380px;
+  margin: auto;
 }
 
 header {
