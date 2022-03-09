@@ -73,13 +73,21 @@ header p {
 
 .card {
   background: var(--color-secondary);
-  padding: 95px 55px;
+  padding: 90px 55px;
 }
 
 .card h3 {
   font-family: var(--font-family-secondary);
   text-align: center;
   font-size: 26px;
+  margin: 0 0 20px;
+}
+
+.card p,
+.card span {
+  font-family: var(--font-family-main);
+  text-align: center;
+  margin: 0 0 30px;
 }
 
 .fruit-icone-bar {
