@@ -75,3 +75,19 @@ header p {
   background: var(--color-secondary);
   padding: 95px 55px;
 }
+
+.card h1 {
+  font-family: var(--font-family-secondary);
+}
+
+.fruit-icone-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 265px;
+}
+
+.fruit-icone-bar img {
+  max-width: 27px;
+}
