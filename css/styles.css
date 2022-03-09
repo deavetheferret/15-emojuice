@@ -70,3 +70,8 @@ header p {
   background: var(--color-article);
   color: var(--color-main);
 }
+
+.card {
+  background: var(--color-secondary);
+  padding: 95px 55px;
+}
