@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  background: var(--color-main);
 }
 
 body {
@@ -28,4 +29,18 @@ body {
 
 header {
   margin-top: 8px;
+  background-image: ;
+  padding: 30px;
+}
+
+header div {
+  background: #ffffffdb;
+  padding: 35px 55px;
+}
+
+header p {
+  color: var(--color-main);
+  text-align: center;
+  font-family: var(--font-family-main);
+  font-size: 20px;
 }
