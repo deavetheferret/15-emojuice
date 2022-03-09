@@ -10,9 +10,9 @@
 }
 
 :root {
-  --font-family-main: ;
-  --font-family-secondary: ;
-  --font-family-third: ;
+  --font-family-main: 'Quattrocento', serif;
+  --font-family-secondary: 'Maven Pro', sans-serif;
+  --font-family-third: 'Sriracha', cursive;
   --color-main: #57bb6b;
   --color-secondary: #fff;
   --color-article: #c4f2ad;
