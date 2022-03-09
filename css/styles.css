@@ -76,8 +76,10 @@ header p {
   padding: 95px 55px;
 }
 
-.card h1 {
+.card h3 {
   font-family: var(--font-family-secondary);
+  text-align: center;
+  font-size: 26px;
 }
 
 .fruit-icone-bar {
