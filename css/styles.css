@@ -38,6 +38,7 @@ header {
 header div {
   background: #ffffffdb;
   padding: 35px 55px;
+  margin: 0 0 35px;
 }
 
 header p {
@@ -45,4 +46,27 @@ header p {
   text-align: center;
   font-family: var(--font-family-main);
   font-size: 20px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 12px;
+  border-radius: 15px;
+  background: var(--color-main);
+  color: var(--color-secondary);
+  font-family: var(--font-family-secondary);
+  text-decoration: none;
+}
+
+.button:hover,
+.button-light {
+  background: var(--color-secondary);
+  color: var(--color-main);
+}
+
+.button-light:hover {
+  background: var(--color-article);
+  color: var(--color-main);
 }
