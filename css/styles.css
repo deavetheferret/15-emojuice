@@ -17,3 +17,15 @@
   --color-secondary: #fff;
   --color-article: #c4f2ad;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-article);
+}
+
+header {
+  margin-top: 8px;
+}
