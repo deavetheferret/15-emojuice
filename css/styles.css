@@ -102,7 +102,7 @@ header p {
 }
 
 .content {
-  padding: 30px;
+  padding: 35px 30px;
   background: var(--color-main);
   color: var(--color-secondary);
   font-family: var(--font-family-secondary);
@@ -114,13 +114,30 @@ header p {
 }
 
 .product {
-  background: #fff;
+  padding: 30px;
+  margin: 40px 0;
   border-radius: 22px;
   color: #000;
+  background: #fff;
+  box-shadow: 0 0 20px #0000006b;
+  text-align: left;
 }
 
-.banana {
-  
+.product h3 {
+  font-family: var(--font-family-third);
+  font-size: 30px;
+}
+
+.product p {
+  font-size: 16px;
+  font-family: var(--font-family-main);
+  color: #0000006b;
+}
+
+.product a {
+  color: #000;
+  font-family: var(--font-family-secondary);
+  font-weight: 700;
 }
 
 footer {
