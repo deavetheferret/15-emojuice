@@ -49,9 +49,8 @@ header p {
 }
 
 .button {
-  display: block;
-  text-align: center;
-  margin: 0 0 20px;
+  display: table;
+  margin: 0 auto 20px;
   padding: 12px;
   border-radius: 15px;
   background: var(--color-main);
