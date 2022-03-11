@@ -129,6 +129,7 @@ header p {
 }
 
 .product p {
+  margin: 0 0 30px;
   font-size: 16px;
   font-family: var(--font-family-main);
   color: #0000006b;
@@ -138,6 +139,16 @@ header p {
   color: #000;
   font-family: var(--font-family-secondary);
   font-weight: 700;
+}
+
+.product-figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.product-figure img {
+  max-width: 80px;
 }
 
 footer {
