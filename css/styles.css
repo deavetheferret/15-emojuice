@@ -105,3 +105,11 @@ header p {
 .product {
   /* en developement */
 }
+
+footer {
+  background: var(--color-secondary);
+  color: #57bb6b;
+  text-align: center;
+  font-family: var(--font-family-secondary);
+  padding: 90px 55px;
+}
