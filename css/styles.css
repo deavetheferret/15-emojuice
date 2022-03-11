@@ -101,8 +101,26 @@ header p {
   max-width: 27px;
 }
 
+.content {
+  padding: 30px;
+  background: var(--color-main);
+  color: var(--color-secondary);
+  font-family: var(--font-family-secondary);
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 26px;
+}
+
 .product {
-  /* en developement */
+  background: #fff;
+  border-radius: 22px;
+  color: #000;
+}
+
+.banana {
+  
 }
 
 footer {
