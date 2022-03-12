@@ -60,7 +60,8 @@ header p {
 }
 
 .button:hover,
-.button-light {
+.button-light,
+.button:active {
   background: var(--color-secondary);
   color: var(--color-main);
 }
@@ -182,4 +183,8 @@ footer {
 
 footer h2 {
   margin: 0 0 30px;
+}
+
+footer p {
+  margin: 0 auto 35px;
 }
