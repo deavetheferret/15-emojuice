@@ -71,7 +71,7 @@ header p {
   color: var(--color-main);
 }
 
-.button:last-of-type {
+footer .button:last-of-type {
   margin: 0 auto 60px;
 }
 
@@ -133,7 +133,8 @@ footer h2 {
   font-size: 30px;
 }
 
-.product p {
+.product p,
+.product-page p {
   margin: 0 0 30px;
   font-size: 16px;
   font-family: var(--font-family-main);
@@ -170,6 +171,41 @@ footer h2 {
 
 .strawberry {
   background: #f7a4b4;
+}
+
+.product-page {
+  text-align: center;
+}
+
+.product-page h2 {
+  font-family: var(--font-family-third);
+  margin: 60px 0 0;
+}
+
+.fruit-exhibition {
+  background: var(--color-secondary);
+  border-radius: 50%;
+  box-shadow: 0 0 20px #0000006b;
+  display: inline-table;
+  margin: 0 0 60px;
+}
+
+.fruit-exhibition img {
+  max-width: 100px;
+  min-width: 100px;
+  padding: 33px;
+}
+
+.product-article {
+  background: var(--color-main);
+  color: var(--color-secondary);
+  padding: 62px;
+  font-family: var(--font-family-main);
+  text-align: left;
+}
+
+.product-article h1 {
+
 }
 
 footer {
