@@ -151,6 +151,22 @@ header p {
   max-width: 80px;
 }
 
+.banana {
+  background: #fff8d7;
+}
+
+.kiwi {
+  background: var(--color-article);
+}
+
+.coffee {
+  background: #d3c6b2;
+}
+
+.strawberry {
+  background: #f7a4b4;
+}
+
 footer {
   background: var(--color-secondary);
   color: #57bb6b;
