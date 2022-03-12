@@ -50,7 +50,7 @@ header p {
 
 .button {
   display: table;
-  margin: 0 auto 20px;
+  margin: 0 auto 12px;
   padding: 12px;
   border-radius: 15px;
   background: var(--color-main);
@@ -68,6 +68,10 @@ header p {
 .button-light:hover {
   background: var(--color-article);
   color: var(--color-main);
+}
+
+.button:last-of-type {
+  margin: 0 auto 60px;
 }
 
 .card {
@@ -109,7 +113,8 @@ header p {
   text-align: center;
 }
 
-.content h2 {
+.content h2,
+footer h2 {
   font-size: 26px;
 }
 
@@ -169,8 +174,12 @@ header p {
 
 footer {
   background: var(--color-secondary);
-  color: #57bb6b;
+  color: var(--color-main);
   text-align: center;
   font-family: var(--font-family-secondary);
-  padding: 90px 55px;
+  padding: 35px 55px;
+}
+
+footer h2 {
+  margin: 0 0 30px;
 }
