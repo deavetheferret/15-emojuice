@@ -99,7 +99,6 @@ header p {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  max-width: 265px;
 }
 
 .fruit-icone-bar img {
