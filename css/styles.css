@@ -58,6 +58,7 @@ header p {
   font-family: var(--font-family-secondary);
   text-decoration: none;
   box-shadow: 0 0 20px #00000025;
+  font-size: 20px;
 }
 
 .button:hover,
