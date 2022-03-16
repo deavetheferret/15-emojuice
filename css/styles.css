@@ -31,8 +31,11 @@ body {
 header {
   margin-top: 8px;
   background-image: url(../img/fruit-exhibition.webp);
-  padding: 30px;
+  padding: 20px;
   background-repeat: none;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 10px 20px #00000025;
 }
 
 .title-container {
