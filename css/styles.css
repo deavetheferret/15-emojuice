@@ -83,6 +83,7 @@ header nav .button {
 .button:active {
   background: var(--color-secondary);
   color: var(--color-main);
+  transition: 0.3s;
 }
 
 .button-light:hover {
