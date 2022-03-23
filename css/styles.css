@@ -452,7 +452,7 @@
     margin: 40px 0;
     border-radius: 22px;
     color: #000;
-    background: #fff;
+    background: var(--color-secondary);
     box-shadow: 0 0 20px #0000006b;
     text-align: left;
   }
